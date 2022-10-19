@@ -1,0 +1,29 @@
+Index: app/src/main/java/com/xiaobo/smartcalendar/Public/PublicVaribale.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.xiaobo.smartcalendar.Public;\r\n\r\nimport com.amap.api.services.core.LatLonPoint;\r\n\r\npublic class PublicVaribale {\r\n\r\n//    static String TOKEN = \"token=calendar_user87504977dd0f466f9ca18d644e913fa5\";\r\n\r\n    // 服务器IP地址\r\n    public static final String IP = \"http://10.147.17.7:5000/\";\r\n//    public static final String IP = \"http://10.147.17.225:5000/\";\r\n    // 上传URL\r\n    public static final String REGISTER_URL = IP + \"user/register/\";\r\n    public static final String LOGIN_URL = IP + \"user/register/\";\r\n\r\n    public static final String uploadFileURL = \"http://10.147.17.7:5000/upload\";\r\n//    public static final String uploadFileURL = \"http://10.147.17.225:5000/upload\";\r\n    public static final String upload_new_jsonURL = IP + \"user/event/?\";\r\n    public static final String revise_eventURL = IP + \"user/event/?\";\r\n    public static final String upload_old_jsonURL = IP + \"user/event/?\";\r\n    public static final String upload_new_TI = IP + \"user/TI/?\";\r\n    public static final String delete_old_event = IP + \"delete_old_event\";\r\n    public static final String upload_customized_rule = IP + \"user/rules/?\";\r\n\r\n//    public static void setTOKEN(String token) {\r\n//        TOKEN = token;\r\n//    }\r\n//    public static String getTOKEN() {\r\n//        return TOKEN;\r\n//    }\r\n\r\n    public static final int POISEARCHACTIVITY_REQUEST = 1000;\r\n    public static final int POISEARCHACTIVITY_RESULT = 1001;\r\n    public static final String LOGIN_FAIL = \"login fail\";\r\n    public static final String LOGIN_SUCCESS = \"login success\";\r\n\r\n    /**\r\n     * http类型\r\n     */\r\n    public enum RequestType {\r\n        REGISTER,       // 注册\r\n        LOGIN,          // 登陆\r\n        UP_EVENT,       // 上传事件\r\n        REVISE_EVENT,   // 修改事件\r\n        UP_INCON,       // 上传冲突\r\n        UP_CSV          // 上传CSV\r\n    }\r\n\r\n    public static final LatLonPoint STARTPOINT_LOTATION = new LatLonPoint(31.838341, 120.543176);   // 沙洲湖科创园A1幢\r\n    public static final LatLonPoint ENDPOINT_LOCATION = new LatLonPoint(31.895321, 120.576157);     // 新城吾悦广场\r\n\r\n    // 冲突http返回\r\n    public static final String MYINCONRESPONSE = \"{\\\"msg\\\": \\\"ok\\\",\\\"status\\\": 201,\\\"data\\\": {\\\"uuid\\\": \\\"957c125e-de65-44cf-a4fa-5011a8bbdbaa_9d8988ae-a254-4b21-8986-7a03bb3ffc52\\\",\\\"sys_action_type1\\\": null,\\\"sys_action_type2\\\": null,\\\"sys_action_type3\\\": null,\\\"sys_action_type4\\\": null, \\\"sys_time_action1\\\": 0, \\\"sys_time_action2\\\": 0,\\\"sys_time_action3\\\": 0,\\\"sys_time_action4\\\": 0}}\";\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/com/xiaobo/smartcalendar/Public/PublicVaribale.java b/app/src/main/java/com/xiaobo/smartcalendar/Public/PublicVaribale.java
+--- a/app/src/main/java/com/xiaobo/smartcalendar/Public/PublicVaribale.java	
++++ b/app/src/main/java/com/xiaobo/smartcalendar/Public/PublicVaribale.java	
+@@ -7,14 +7,16 @@
+ //    static String TOKEN = "token=calendar_user87504977dd0f466f9ca18d644e913fa5";
+ 
+     // 服务器IP地址
+-    public static final String IP = "http://10.147.17.7:5000/";
+ //    public static final String IP = "http://10.147.17.225:5000/";
++    public static final String IP = "http://10.147.17.7:5000/";
++
+     // 上传URL
+     public static final String REGISTER_URL = IP + "user/register/";
+     public static final String LOGIN_URL = IP + "user/register/";
+ 
+-    public static final String uploadFileURL = "http://10.147.17.7:5000/upload";
+ //    public static final String uploadFileURL = "http://10.147.17.225:5000/upload";
++    public static final String uploadFileURL = "http://10.147.17.7:5000/upload";
++
+     public static final String upload_new_jsonURL = IP + "user/event/?";
+     public static final String revise_eventURL = IP + "user/event/?";
+     public static final String upload_old_jsonURL = IP + "user/event/?";

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SmartCalendar</string>
+    <string name="ADD_EVENT">Add</string>
+    <string name="TODAY">today</string>
+    <string name="YEAR">year</string>
+    <string name="MONTH">month</string>
+    <string name="DAY">day</string>
+    <string name="HOUR">hour</string>
+    <string name="MINUTE">minute</string>
+    <string name="SECOND">second</string>
+    <string name="SAVE">save</string>
+    <string name="EVENT_TYPE">Event Type</string>
+    <string name="EVENT_TITLE">Title</string>
+    <string name="EVENT_STARTTIME">StartTime</string>
+    <string name="EVENT_ENDTIME">EndTime</string>
+    <string name="EVENT_HOST">Host</string>
+    <string name="EVENT_PARTICIPANT">Participant</string>
+    <string name="EVENT_PERIODICITY">Periodicity</string>
+    <string name="EVENT_PERVIOUSLOCATION">PreviousLocation</string>
+    <string name="EVENT_LOCATION">Location</string>
+    <string name="EVENT_IMPORTANCE">Importance</string>
+    <string name="DURATION">Duration</string>
+    <string name="NOT_NECESSARY">Not Necessary</string>
+    <string name="MINIMUM_DURATION">MinimumDuration</string>
+    <string name="EARLIEST_START_TIME">EarliestStartTime</string>
+    <string name="LATEST_START_TIME">LatestStartTime</string>
+    <string name="EARLIEST_END_TIME">EarliestEndTime</string>
+    <string name="LATEST_END_TIME">LatestEndTime</string>
+    <string name="COMMUTING_TIME">CommutingTime</string>
+    <string name="FORMATED">Formated</string>
+    <string name="FORMATED_COMMUTING_TIME_FAILED">FormatedFailed</string>
+
+    <string name="WORK">Work</string>
+    <string name="STUDY">Study</string>
+    <string name="PERSONAL">Personal</string>
+    <string name="SOCIAL">Social</string>
+    <string name="ENTERTAINMENT">Entertainment</string>
+    <string name="REST">Rest</string>
+    <string name="SPORT">Sport</string>
+    <string name="OTHER">Other</string>
+
+    <string name="CANCLE">Cancle</string>
+    <string name="DONE">Done</string>
+
+    <string name="NEVER">Never</string>
+    <string name="EVERYDAY">EveryDay</string>
+    <string name="EVERYWEEK">EveryWeek</string>
+    <string name="EVERYMONTH">EveryMonth</string>
+    <string name="EVERYYEAR">EveryYear</string>
+    <string name="CUSTOM">Custom</string>
+
+    <string name="UNDEFINED">Undefined</string>
+
+    <string name="EVENT_1">Event_1</string>
+    <string name="EVENT_2">Event_2</string>
+    <string name="SYSTEM_ADVICE">SystemSuggestion</string>
+    <string name="IGNORE">Ignore</string>
+    <string name="EDIT">Edit</string>
+    <string name="WAITING">Waiting...</string>
+
+    <string name="ABANDON">Abandon</string>
+
+    <string name="no_result">对不起，没有搜索到相关数据！</string>
+
+    <string name="notifyTitle">Tips</string>
+    <string name="notifyMsg">The current app is missing necessary permissions. \n\nPlease click \"Settings\" - \"permissions\" - \"to open the required permissions.</string>
+    <string name="gpsNotifyMsg">The current application needs to turn on the positioning function. \n\nPlease click \"Settings\" - \"location service\" - \"to open the location function.</string>
+    <string name="setting">Setting</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="changeLanguage">Change Language</string>
+
+    <string-array name="TYPES">
+        <item>Work</item>
+        <item>Study</item>
+        <item>Personal</item>
+        <item>Social</item>
+        <item>Entertainment</item>
+        <item>Rest</item>
+        <item>Sport</item>
+        <item>Other</item>
+    </string-array>
+
+    <item name="Tag_AddEvent_Item_Type1" type="id"></item>
+    <item name="Tag_AddEvent_Item_Type2" type="id"></item>
+    <item name="Tag_AddEvent_Item_Type3" type="id"></item>
+    <item name="Tag_ShowEvent_Item_Type4" type="id"></item>
+    <string name="share">share</string>
+    <string name="Whether_the_sequence_of_events_is_important">Does the sequence of event occurrence matter?</string>
+    <string name="register">Sign Up</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="phone_number">Phone</string>
+    <string name="verificationcode">Code</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="send_code">Send Code</string>
+    <string name="reacquire">Reacquire</string>
+    <string name="agree">Agree</string>
+    <string name="incon_type">Temporal relationship betweeen events</string>
+    <string name="incon_type_first_before">Before</string>
+    <string name="incon_type_first_meets">Meets</string>
+    <string name="incon_type_first_overlaps">Overlaps</string>
+    <string name="incon_type_first_starts">Starts</string>
+    <string name="incon_type_first_equals">Equals</string>
+    <string name="incon_type_first_during">During</string>
+    <string name="incon_type_first_finishes">Finishes</string>
+    <string name="incon_type_second_is_happening">is happening</string>
+    <string name="incon_type_second_just_ended">just ended</string>
+    <string name="incon_type_second_not_need_commute">not need commute</string>
+    <string name="incon_type_second_commute_from_event2_location_to_event1_location">from event2 location to event1 location</string>
+    <string name="incon_type_second_commute_from_event1_to_event2">from event1 location to event2 location</string>
+    <string name="incon_type_second_commute_from_event1_location_to_event2_location">from event1 location to event2 location</string>
+    <string name="incon_type_second_already_ended">already ended</string>
+    <string name="incon_type_first_before_describe">event1 ends before event2</string>
+    <string name="incon_type_first_meets_describe">event2 starts when event1 ended</string>
+    <string name="incon_type_first_overlaps_describe">event2 starts when event1 is happening and lasts longer than event1</string>
+    <string name="incon_type_first_starts_describe">event1 and event2 start at the same time, while event1 ends before even2 ends</string>
+    <string name="incon_type_first_equals_describe">event1 and event2 share the same starting and ending point</string>
+    <string name="incon_type_first_during_describe">event1 starts after event2\'s starting point, and ends before event2\'s ending point</string>
+    <string name="incon_type_first_finishes_describe">event1 starts after event2\'s starting point, while two events end at the same time</string>
+    <string name="next">next</string>
+    <string name="login">Sign in</string>
+    <string name="forget_password">Forget Password</string>
+    <string name="ACCEPT">Accept</string>
+    <string name="add_event">Add Event</string>
+    <string name="add_rule">Add Rule</string>
+    <string name="clear">Clear</string>
+    <string name="service_error">The server returned an error</string>
+    <string name="thing">T</string>
+    <string name="EVENT_DATE">Date</string>
+    <string name="Discard">Discard</string>
+    <string name="Delete">Delete</string>
+</resources>

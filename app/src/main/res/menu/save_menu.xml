@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--Item对应于工具栏菜单的具体选项-->
+    <item
+        android:id="@+id/menu_item_new_event"
+        android:title="@string/SAVE"
+        android:icon="@drawable/seleted"
+        app:showAsAction="ifRoom|withText" />
+    <!--showAsAction属性用于指定item是否显示在工具栏上 -->
+    <!--ifRoom表示空间足够时，才会添加到工具栏 -->
+</menu>

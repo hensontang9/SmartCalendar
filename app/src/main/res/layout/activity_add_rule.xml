@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/event1title_for_rule"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/EVENT_1"
+                android:layout_marginTop="10dp"
+                />
+            <Button
+                android:id="@+id/event1type_for_rule"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/EVENT_TYPE"
+                android:textAllCaps="false"
+                />
+            <EditText
+                android:id="@+id/event1location_for_rule"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/EVENT_LOCATION"
+                />
+            <EditText
+                android:id="@+id/event1host_for_rule"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/EVENT_HOST"
+                />
+            <EditText
+                android:id="@+id/event1participant_for_rule"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/EVENT_PARTICIPANT"
+                />
+            <Button
+                android:id="@+id/event1periodicity_for_rule"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/EVENT_PERIODICITY"
+                android:textAllCaps="false"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="15dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/event2title_for_rule"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/EVENT_2"
+                android:layout_marginTop="10dp"
+                />
+            <Button
+                android:id="@+id/event2type_for_rule"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/EVENT_TYPE"
+                android:textAllCaps="false"
+                />
+            <EditText
+                android:id="@+id/event2location_for_rule"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/EVENT_LOCATION"
+                />
+            <EditText
+                android:id="@+id/event2host_for_rule"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/EVENT_HOST"
+                />
+            <EditText
+                android:id="@+id/event2participant_for_rule"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/EVENT_PARTICIPANT"
+                />
+            <Button
+                android:id="@+id/event2periodicity_for_rule"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/EVENT_PERIODICITY"
+                android:textAllCaps="false"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="15dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/rule_action1"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Act1"
+                android:textAllCaps="false"/>
+            <Button
+                android:id="@+id/rule_action2"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Act2"
+                android:textAllCaps="false"/>
+            <Button
+                android:id="@+id/rule_action3"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Act3"
+                android:textAllCaps="false"/>
+            <Button
+                android:id="@+id/rule_action4"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Act4"
+                android:textAllCaps="false"/>
+
+            <!--        <RadioGroup-->
+            <!--            android:layout_width="match_parent"-->
+            <!--            android:layout_height="wrap_content"-->
+            <!--            android:orientation="horizontal">-->
+
+            <!--            <RadioButton-->
+            <!--                android:layout_weight="1"-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:text="Act1"/>-->
+            <!--            <RadioButton-->
+            <!--                android:layout_weight="1"-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:text="Act2"/>-->
+            <!--            <RadioButton-->
+            <!--                android:layout_weight="1"-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:text="Act3"/>-->
+            <!--            <RadioButton-->
+            <!--                android:layout_weight="1"-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:text="Act4"/>-->
+
+            <!--        </RadioGroup>-->
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="15dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <CheckBox
+                android:id="@+id/orderimpart_for_rule"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Whether_the_sequence_of_events_is_important"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="15dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/button_customizedrule_conflicttype"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/incon_type"
+                android:textAllCaps="false"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"/>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/adjust_commuting_time_title"
+                android:text="通勤时间:"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/adjust_commuting_time"
+                android:text="01:00"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/adjust_event1_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp">
+
+                <TextView
+                    android:id="@+id/adjust_event1_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="19"
+                    android:text="@string/EVENT_TITLE"
+                    android:textSize="20sp" />
+
+                <CheckBox
+                    android:id="@+id/adjust_event1_abandon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_weight="1"
+                    android:onClick="AdjustCheckBoxClicked"
+                    android:text="@string/ABANDON"/>
+
+            </LinearLayout>
+
+            <FrameLayout
+                android:id="@+id/adjust_event1_framelayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="12dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            android:text="@string/DURATION" />
+
+                        <!--<TimePicker-->
+                        <!--android:id="@+id/timepicker_event1"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_marginLeft="12dp"-->
+                        <!--android:layout_weight="1"-->
+                        <!--android:timePickerMode="spinner">-->
+
+                        <!--</TimePicker>-->
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_weight="3">
+
+                            <NumberPicker
+                                android:id="@+id/adjust_event1_hourpicker"
+                                android:layout_width="wrap_content"
+                                android:layout_height="120dp">
+
+                            </NumberPicker>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/HOUR"
+                                android:layout_gravity="center" />
+
+                            <NumberPicker
+                                android:id="@+id/adjust_event1_minutepicker"
+                                android:layout_width="wrap_content"
+                                android:layout_height="120dp">
+
+                            </NumberPicker>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/MINUTE"
+                                android:layout_gravity="center" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/EVENT_STARTTIME" />
+
+                        <TextView
+                            android:id="@+id/adjust_event1_starttime"
+                            android:layout_width="32dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="3dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="00:00"
+                            android:textSize="12sp" />
+
+                        <SeekBar
+                            android:id="@+id/adjust_event1_starttime_seekbar"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/EVENT_ENDTIME" />
+
+                        <TextView
+                            android:id="@+id/adjust_event1_endtime"
+                            android:layout_width="32dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="3dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="00:00"
+                            android:textSize="12sp" />
+
+                        <SeekBar
+                            android:id="@+id/adjust_event1_endtime_seekbar"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!--遮罩层-->
+                <Button
+                    android:id="@+id/adjust_event1_maskview"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#00FFFFFF"
+                    android:visibility="gone" />
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="12dp" />
+
+
+        <LinearLayout
+            android:id="@+id/adjust_event2_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="12dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp">
+
+                <TextView
+                    android:id="@+id/adjust_event2_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="19"
+                    android:text="@string/EVENT_TITLE"
+                    android:textSize="20sp" />
+
+                <CheckBox
+                    android:id="@+id/adjust_event2_abandon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="end"
+                    android:onClick="AdjustCheckBoxClicked"
+                    android:text="@string/ABANDON"/>
+
+            </LinearLayout>
+
+            <FrameLayout
+                android:id="@+id/adjust_event2_framelayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="12dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            android:text="@string/DURATION" />
+
+                        <!--<TimePicker-->
+                        <!--android:id="@+id/timepicker_event2"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_marginLeft="12dp"-->
+                        <!--android:layout_weight="1"-->
+                        <!--android:timePickerMode="spinner">-->
+
+                        <!--</TimePicker>-->
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_weight="3">
+
+                            <NumberPicker
+                                android:id="@+id/adjust_event2_hourpicker"
+                                android:layout_width="wrap_content"
+                                android:layout_height="120dp">
+
+                            </NumberPicker>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/HOUR"
+                                android:layout_gravity="center" />
+
+                            <NumberPicker
+                                android:id="@+id/adjust_event2_minutepicker"
+                                android:layout_width="wrap_content"
+                                android:layout_height="120dp">
+
+                            </NumberPicker>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/MINUTE"
+                                android:layout_gravity="center" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/EVENT_STARTTIME" />
+
+                        <TextView
+                            android:id="@+id/adjust_event2_starttime"
+                            android:layout_width="32dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="3dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="00:00"
+                            android:textSize="12sp" />
+
+                        <SeekBar
+                            android:id="@+id/adjust_event2_starttime_seekbar"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/EVENT_ENDTIME" />
+
+                        <TextView
+                            android:id="@+id/adjust_event2_endtime"
+                            android:layout_width="32dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="3dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="00:00"
+                            android:textSize="12sp" />
+
+                        <SeekBar
+                            android:id="@+id/adjust_event2_endtime_seekbar"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <!--遮罩层-->
+                <Button
+                    android:id="@+id/adjust_event2_maskview"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#00FFFFFF"
+                    android:visibility="gone" />
+
+            </FrameLayout>
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

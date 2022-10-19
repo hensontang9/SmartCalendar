@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="Tag_AddEvent_Item_Type1" type="id"></item>
+    <item name="Tag_AddEvent_Item_Type2" type="id"></item>
+    <item name="Tag_AddEvent_Item_Type3" type="id"></item>
+    <item name="Tag_ShowEvent_Item_Type4" type="id"></item>
+    <string name="app_name">SmartCalendar</string>
+    <string name="ADD_EVENT">添加事件</string>
+    <string name="TODAY">今天</string>
+    <string name="YEAR">年</string>
+    <string name="MONTH">月</string>
+    <string name="DAY">日</string>
+    <string name="HOUR">小时</string>
+    <string name="MINUTE">分钟</string>
+    <string name="SECOND">秒</string>
+    <string name="SAVE">保存</string>
+    <string name="EVENT_TYPE">类型</string>
+    <string name="EVENT_TITLE">标题</string>
+    <string name="EVENT_STARTTIME">开始时间</string>
+    <string name="EVENT_ENDTIME">结束时间</string>
+    <string name="EVENT_DATE">时间</string>
+    <string name="EVENT_HOST">主持人</string>
+    <string name="EVENT_PARTICIPANT">参与人</string>
+    <string name="EVENT_PERIODICITY">周期性</string>
+    <string name="EVENT_PERVIOUSLOCATION">开始地点</string>
+    <string name="EVENT_LOCATION">目标地点</string>
+    <string name="EVENT_IMPORTANCE">重要性</string>
+    <string name="DURATION">持续时间</string>
+    <string name="NOT_NECESSARY">非必填项</string>
+    <string name="MINIMUM_DURATION">最短持续时间</string>
+    <string name="EARLIEST_START_TIME">最早开始时间</string>
+    <string name="LATEST_START_TIME">最晚开始时间</string>
+    <string name="EARLIEST_END_TIME">最早结束时间</string>
+
+    <string name="LATEST_END_TIME">最晚结束时间</string>
+    <string name="COMMUTING_TIME">通勤时间</string>
+    <string name="FORMATED">格式化后</string>
+    <string name="FORMATED_COMMUTING_TIME_FAILED">未能得到通勤时间</string>
+    <string name="WORK">工作</string>
+    <string name="STUDY">学习</string>
+    <string name="PERSONAL">个人</string>
+    <string name="SOCIAL">社交</string>
+
+    <string name="ENTERTAINMENT">娱乐</string>
+    <string name="REST">休息</string>
+
+    <string name="SPORT">运动</string>
+    <string name="OTHER">其他</string>
+    <string name="CANCLE">取消</string>
+    <string name="DONE">确定</string>
+    <string name="NEVER">从不</string>
+    <string name="EVERYDAY">每天</string>
+
+    <string name="EVERYWEEK">每周</string>
+
+    <string name="EVERYMONTH">每月</string>
+    <string name="EVERYYEAR">每年</string>
+    <string name="CUSTOM">自定义</string>
+    <string name="UNDEFINED">未定义</string>
+    <string name="EVENT_1">事件1</string>
+    <string name="EVENT_2">事件2</string>
+
+    <string name="SYSTEM_ADVICE">系统建议</string>
+
+    <string name="IGNORE">忽略</string>
+
+    <string name="EDIT">修改</string>
+    <string name="ACCEPT">接受</string>
+    <string name="WAITING">等待中...</string>
+    <string name="ABANDON">放弃</string>
+    <string name="no_result">对不起，没有搜索到相关数据！</string>
+    <string name="notifyTitle">提示</string>
+    <string name="Discard">放弃</string>
+
+    <string name="notifyMsg">当前应用缺少必要权限。\n\n请点击\"设置\"-\"权限\"-打开所需权限。</string>
+
+    <string name="gpsNotifyMsg">当前应用需要打开定位功能。\n\n请点击\"设置\"-\"定位服务\"-打开定位功能。</string>
+    <string name="setting">设置</string>
+    <string name="cancel">取消</string>
+    <string name="clear">清空</string>
+
+    <string name="changeLanguage">修改语言</string>
+
+    <string name="share">分享</string>
+
+    <string name="Whether_the_sequence_of_events_is_important">事件的发生顺序是否重要?</string>
+
+    <string name="register">注册</string>
+    <string name="login">登录</string>
+    <string name="forget_password">忘记密码</string>
+    <string name="username">用户名</string>
+    <string name="password">密码</string>
+    <string name="phone_number">手机号</string>
+    <string name="verificationcode">验证码</string>
+    <string name="confirm_password">确认密码</string>v
+    <string name="send_code">发送验证码</string>
+    <string name="reacquire">重新获取</string>
+    <string name="agree">同意</string>
+    <string name="next">下一步</string>
+    <string name="add_event">新建事件</string>
+    <string name="add_rule">新建规则</string>
+
+    <string name="incon_type">冲突类型</string>
+    <string name="incon_type_first_before">之前</string>
+    <string name="incon_type_first_meets">相遇</string>
+    <string name="incon_type_first_meets_describe">事件2开始于事件1的结束</string>
+    <string name="incon_type_first_overlaps">重叠</string>
+    <string name="incon_type_first_overlaps_describe">事件2在事件1的发生中开始，并且晚于事件1结束</string>
+    <string name="incon_type_first_starts">开始</string>
+    <string name="incon_type_first_starts_describe">事件1和2同时开始，但事件1早于事件2结束</string>
+    <string name="incon_type_first_equals">相等</string>
+    <string name="incon_type_first_equals_describe">事件1和2的时间完全相同</string>
+    <string name="incon_type_first_during">在其中</string>
+    <string name="incon_type_first_during_describe">事件1晚于事件2开始，早于事件2结束</string>
+    <string name="incon_type_first_finishes">结束</string>
+    <string name="incon_type_first_finishes_describe">事件1晚于事件2开始，但两个事件同时结束</string>
+
+    <string name="incon_type_second_is_happening">正在发生</string>
+    <string name="incon_type_second_just_ended">刚刚结束</string>
+    <string name="incon_type_second_already_ended">已经结束</string>
+    <string name="incon_type_second_not_need_commute">不需要通勤</string>
+    <string name="incon_type_second_commute_from_event2_location_to_event1_location">这里需要从事件2通勤到事件1</string>
+    <string name="incon_type_second_commute_from_event1_to_event2">这里需要从事件1通勤到事件2</string>
+    <string name="incon_type_second_commute_from_event1_location_to_event2_location">这里需要从事件1通勤到事件2</string>
+
+    <string-array name="TYPES">
+        <item>工作</item>
+        <item>学习</item>
+        <item>个人</item>
+        <item>社交</item>
+        <item>娱乐</item>
+        <item>休息</item>
+        <item>运动</item>
+        <item>其他</item>
+    </string-array>
+    <string name="incon_type_first_before_describe">事件1在事件2结束之前</string>
+    <string name="service_error">服务器返回错误</string>
+    <string name="thing">事</string>
+    <string name="Delete">删除</string>
+
+</resources>

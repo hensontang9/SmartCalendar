@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Yuzer/Desktop/Client/SmartCalendar/app/src/main/res/layout/activity_add_event.xml" value="0.1" />
+        <entry key="..\:/Users/Yuzer/Desktop/Client/SmartCalendar/app/src/main/res/layout/activity_adjust.xml" value="0.17239583333333333" />
+        <entry key="..\:/Users/Yuzer/Desktop/Client/SmartCalendar/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Yuzer/Desktop/Client/SmartCalendar/app/src/main/res/layout/activity_register.xml" value="0.171875" />
+        <entry key="..\:/Users/Yuzer/Desktop/Client/SmartCalendar/app/src/main/res/layout/activity_seting.xml" value="0.1875" />
+        <entry key="..\:/Users/Yuzer/Desktop/Client/SmartCalendar/app/src/main/res/layout/activity_table.xml" value="0.2046875" />
+        <entry key="..\:/Users/Yuzer/Desktop/Client/SmartCalendar/app/src/main/res/layout/full_dilog_customizedrule_item.xml" value="0.1859375" />
+        <entry key="..\:/Users/Yuzer/Desktop/Client/SmartCalendar/app/src/main/res/layout/full_dilog_recycler_item.xml" value="0.1859375" />
+        <entry key="..\:/Users/Yuzer/Desktop/Client/SmartCalendar/app/src/main/res/layout/fulldialog_customizedrule_item.xml" value="0.15256410256410258" />
+        <entry key="..\:/Users/Yuzer/Desktop/Client/SmartCalendar/app/src/main/res/layout/main_list_group.xml" value="0.18840579710144928" />
+        <entry key="..\:/Users/Yuzer/Desktop/Client/SmartCalendar/app/src/main/res/layout/main_list_item.xml" value="0.18840579710144928" />
+        <entry key="..\:/Users/Yuzer/Desktop/Client/SmartCalendar/app/src/main/res/layout/mydialog_member.xml" value="0.18697916666666667" />
+        <entry key="..\:/Users/Yuzer/Desktop/Client/SmartCalendar/app/src/main/res/menu/main_menu.xml" value="0.26875" />
+        <entry key="..\:/Users/Yuzer/Desktop/Client/SmartCalendar/app/src/main/res/menu/menu_tableoption.xml" value="0.2515625" />
+        <entry key="..\:/Users/Yuzer/Desktop/Client/SmartCalendar/app/src/main/res/menu/menu_tablesetting.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/Yuzer/Desktop/Client/SmartCalendar/app/src/main/res/xml/network_security_config.xml" value="0.175" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
